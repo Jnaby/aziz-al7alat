@@ -34,7 +34,7 @@ client.on('ready', () => {
  
  
 
-var prefix = "#"
+var prefix = "-"
 client.on('message', function(message) {
     const myID = "524895523371614208";
    let args = message.content.split(" ").slice(1).join(" ");
